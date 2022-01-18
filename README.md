@@ -1,9 +1,14 @@
-# ts-xml
+# type-xml
 
 This is an experiment in pushing the limits of the TypeScript compiler: an XML parser that operates entirely on string literal types. You can parse a string literal type and get meaningful data out of it, and 100% of the code will go away when compiled.
 
+```
+# to install:
+npm install type-xml
+```
+
 ```typescript
-import { Parser } from 'ts-xml';
+import { Parser } from 'type-xml';
 
 type input = `<div id="1" style="background: blue">
   <selfClosing />
