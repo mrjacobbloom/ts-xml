@@ -1,0 +1,16 @@
+{
+  "name": "ts-xml",
+  "version": "1.0.0",
+  "description": "This is an experiment in pushing the limits of the TypeScript compiler: an XML parser that operates entirely on string literal types.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"no tests!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrjacobbloom/ts-xml.git"
+  },
+  "homepage": "https://github.com/mrjacobbloom/ts-xml#readme",
+  "author": "Jacob Bloom",
+  "license": "MIT"
+}
