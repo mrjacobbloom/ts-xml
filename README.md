@@ -8,7 +8,7 @@ npm install type-xml
 ```
 
 ```typescript
-import { Parser } from 'type-xml';
+import { Parse } from 'type-xml';
 
 type input = `<div id="1" style="background: blue">
   <selfClosing />
@@ -22,7 +22,7 @@ type output = Parse<input>[0]; // "Returns" an array (tuple) of string types and
 
 type a = output['tag']; // "div"
 type b = output['attributes']['style']; // "background: blue"
-type c = output['children']; // [Node<'selfClosing'>, "Foo", ...>] (note: several whitespace text nodes removed for clarity)
+type c = output['children']; // [Node<'selfClosing'>, "Foo", ...] (note: several whitespace text nodes removed for clarity)
 ```
 
 ## Caveats
