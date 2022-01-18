@@ -1,6 +1,6 @@
 {
   "name": "type-xml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is an experiment in pushing the limits of the TypeScript compiler: an XML parser that operates entirely on string literal types.",
   "main": "index.ts",
   "scripts": {
